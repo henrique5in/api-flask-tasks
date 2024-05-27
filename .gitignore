@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Flask
+instance/
+webapp.egg-info/
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Dependency directories
+.venv/
+venv/
+env/
+
+# Compiled Python files
+*.pyc
+
+# Compiled C extensions
+*.so
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Python bytecode
+*.pyc
+*.pyo
