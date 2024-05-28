@@ -7,6 +7,7 @@ Task manager API using Flask.
 - [Installation](#installation)
 - [Usage](#usage)
 - [Endpoints](#endpoints)
+- [Tests](#tests)
 
 ## Installation
 
