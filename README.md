@@ -7,8 +7,6 @@ Task manager API using Flask.
 - [Installation](#installation)
 - [Usage](#usage)
 - [Endpoints](#endpoints)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
@@ -33,11 +31,3 @@ Task manager API using Flask.
 - **POST /api/tasks**: Create a new task.
 - **PUT /api/tasks/{id}**: Update an existing task.
 - **DELETE /api/tasks/{id}**: Delete a task.
-
-## Contributing
-
-Contributions are welcome! Please follow the [contribution guidelines](CONTRIBUTING.md).
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
