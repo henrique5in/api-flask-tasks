@@ -19,7 +19,7 @@ def create_task():
     new_task = Task(id=task_id_control, name=data['name'], description=data['description'])
     task_id_control += 1
     tasks.append(new_task)
-    return jsonify({'message':'Task sucessfully created'}), 201
+    return jsonify({'message':'Task sucessfully created', "id":new_task.id}), 201
 
 @app.route('/api/tasks', methods=['GET'])
 def get_tasks():
