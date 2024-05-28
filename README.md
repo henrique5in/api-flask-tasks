@@ -31,3 +31,14 @@ Task manager API using Flask.
 - **POST /api/tasks**: Create a new task.
 - **PUT /api/tasks/{id}**: Update an existing task.
 - **DELETE /api/tasks/{id}**: Delete a task.
+
+### Tests
+
+1. Start the Flask server:
+  ```shell
+  python app.py
+  ```
+2. Start the Pytest:
+  ```shell
+  pytest tests.py -v
+  ```
